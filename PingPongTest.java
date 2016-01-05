@@ -1,4 +1,4 @@
-import java.io.Console; 
+import java.io.Console;
 
 public class PingPongTest {
 	public static void main(String[] args) {
@@ -6,6 +6,7 @@ public class PingPongTest {
 
 		System.out.println("Give me a number between 1 and 100");
 		String stringNumberInput = myConsole.readLine();
+		System.out.println("THIS IS A TEST");
 		Integer numberInput = Integer.parseInt(stringNumberInput);
 
 		for (Integer i = 0 ; i <= numberInput ; i++ ) {
